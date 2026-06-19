@@ -1,6 +1,7 @@
 import ProductScene from "../three/ProductScene";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function ImmersiveShowcase() {
   const sectionRef = useRef(null);
@@ -77,7 +78,6 @@ function ImmersiveShowcase() {
           items-center
         "
       >
-        {/* BG GLOW */}
         <div
           className="
             absolute
@@ -186,29 +186,31 @@ function ImmersiveShowcase() {
                 </div>
               </div>
 
-              <motion.button
-                whileHover={{
-                  scale: 1.03,
-                }}
-                whileTap={{
-                  scale: 0.97,
-                }}
-                className="
-                  px-8
-                  py-4
-                  rounded-full
-                  font-semibold
-                  text-white
-                "
-                style={{
-                  background:
-                    "linear-gradient(135deg, rgba(96,165,250,0.95), rgba(59,130,246,0.75))",
-                  boxShadow:
-                    "0 15px 40px rgba(59,130,246,0.25)",
-                }}
-              >
-                Request Technical Details
-              </motion.button>
+              <Link to="/products/rubber-rice-rollers">
+                <motion.button
+                  whileHover={{
+                    scale: 1.03,
+                  }}
+                  whileTap={{
+                    scale: 0.97,
+                  }}
+                  className="
+                    px-8
+                    py-4
+                    rounded-full
+                    font-semibold
+                    text-white
+                  "
+                  style={{
+                    background:
+                      "linear-gradient(135deg, rgba(96,165,250,0.95), rgba(59,130,246,0.75))",
+                    boxShadow:
+                      "0 15px 40px rgba(59,130,246,0.25)",
+                  }}
+                >
+                  Request Technical Details
+                </motion.button>
+              </Link>
             </motion.div>
 
             {/* RIGHT SIDE */}
