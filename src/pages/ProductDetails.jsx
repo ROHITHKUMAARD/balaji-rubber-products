@@ -40,28 +40,7 @@ function ProductDetails() {
     })),
   };
 
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.title,
-    description: product.description,
-    image: product.images?.hero
-  ? new URL(
-      product.images.hero,
-      "https://balaji-rubber-products.vercel.app"
-    ).href
-  : undefined,
 
-    brand: {
-      "@type": "Brand",
-      name: "Balaji Rubber Products",
-    },
-
-    manufacturer: {
-      "@type": "Organization",
-      name: "Balaji Rubber Products",
-    },
-  };
 
   const SITE_URL = "https://balaji-rubber-products.vercel.app";
 
@@ -134,10 +113,9 @@ const breadcrumbSchema = {
         canonical={product.seo?.canonical}
         image={product.images?.hero}
         schema={[
-  productSchema,
-  breadcrumbSchema,
-  ...(product.faqs?.length ? [faqSchema] : []),
-]}
+          breadcrumbSchema,
+          ...(product.faqs?.length ? [faqSchema] : []),
+        ]}
       />
 
       <ParallaxSection>
