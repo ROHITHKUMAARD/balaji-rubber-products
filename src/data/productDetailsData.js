@@ -12,7 +12,7 @@ const productDetailsData = {
       "Rubber to metal bonded components for vibration isolation, shock absorption and heavy industrial machinery.",
     keywords:
       "metal bonded rubber products, anti vibration rubber mounts, rubber metal bonding",
-    canonical: "https://www.yoursite.com/products/metal-bonded-rubber-products",
+    canonical: "https://balaji-rubber-products.vercel.app/products/metal-bonded-rubber-products",
   },
 
 
@@ -176,7 +176,7 @@ const productDetailsData = {
         "High-quality rubber bellows for vibration control, expansion joints, pumps and industrial machinery. Custom designs available.",
       keywords:
         "rubber bellows manufacturer, industrial bellows, expansion joint bellows",
-      canonical: "https://www.yoursite.com/products/rubber-bellows",
+      canonical: "https://balaji-rubber-products.vercel.app/products/rubber-bellows",
     },
 
 
@@ -341,7 +341,7 @@ const productDetailsData = {
       "Precision rubber seals and O-rings in NBR, EPDM, Viton & Silicone for hydraulic, pneumatic and industrial applications.",
     keywords:
       "rubber seals manufacturer, o ring supplier india, industrial rubber sealing",
-    canonical: "https://www.yoursite.com/products/rubber-seals-o-rings",
+    canonical: "https://balaji-rubber-products.vercel.app/products/rubber-seals-o-rings",
   },
 
   short:
@@ -509,7 +509,7 @@ const productDetailsData = {
       keywords:
         "rubber diaphragm manufacturer, molded rubber diaphragm, industrial diaphragm",
       canonical:
-        "https://www.yoursite.com/products/rubber-diaphragm",
+        "https://balaji-rubber-products.vercel.app/products/rubber-diaphragm",
     },
 
     short:
@@ -668,7 +668,7 @@ const productDetailsData = {
       "Oil and fuel resistant nitrile rubber products for automotive, hydraulic and industrial sealing applications.",
     keywords:
       "nitrile rubber products, nbr rubber manufacturer, oil resistant rubber",
-    canonical: "https://www.yoursite.com/products/nitrile-rubber-products",
+    canonical: "https://balaji-rubber-products.vercel.app/products/nitrile-rubber-products",
   },
 
   short:
@@ -956,7 +956,7 @@ const productDetailsData = {
       "Manufacturer of custom rubber products including seals, bellows, diaphragms and molded components for industrial and OEM applications.",
     keywords:
       "rubber products manufacturer, custom rubber components, industrial rubber parts",
-    canonical: "https://www.yoursite.com/products/rubber-products",
+    canonical: "https://balaji-rubber-products.vercel.app/products/rubber-products",
   },
 
   subProducts: [
@@ -1123,7 +1123,7 @@ const productDetailsData = {
       "Silicone rubber profiles, cords, tubes and molded components for food, pharma, medical and high-temperature applications.",
     keywords:
       "silicone rubber products, food grade silicone rubber, silicone manufacturer",
-    canonical: "https://www.yoursite.com/products/silicone-rubber-products",
+    canonical: "https://balaji-rubber-products.vercel.app/products/silicone-rubber-products",
   },
 
   subProducts: [
@@ -1295,7 +1295,7 @@ const productDetailsData = {
     keywords:
       "silicone tubes manufacturer, food grade silicone tubing, medical silicone tube",
     canonical:
-      "https://www.yoursite.com/products/silicone-tubes",
+      "https://balaji-rubber-products.vercel.app/products/silicone-tubes",
   },
 
 
@@ -1377,7 +1377,7 @@ const productDetailsData = {
     keywords:
       "silicone o rings manufacturer, food grade silicone o rings, high temperature o rings",
     canonical:
-      "https://www.yoursite.com/products/silicone-o-rings",
+      "https://balaji-rubber-products.vercel.app/products/silicone-o-rings",
   },
 
   short:
@@ -1459,7 +1459,7 @@ const productDetailsData = {
     keywords:
       "silicone cords manufacturer, silicone rubber cord, high temperature silicone cord",
     canonical:
-      "https://www.yoursite.com/products/silicone-cords",
+      "https://balaji-rubber-products.vercel.app/products/silicone-cords",
   },
 
   short:
@@ -1526,7 +1526,7 @@ const productDetailsData = {
     keywords:
       "silicone profiles manufacturer, extruded silicone profiles, silicone sealing profiles",
     canonical:
-      "https://www.yoursite.com/products/silicone-profiles",
+      "https://balaji-rubber-products.vercel.app/products/silicone-profiles",
   },
 
   short:
@@ -1591,7 +1591,7 @@ const productDetailsData = {
       "High-temperature and chemical resistant Viton rubber components for oil & gas, chemical and automotive industries.",
     keywords:
       "viton rubber products, chemical resistant rubber, fkm rubber manufacturer",
-    canonical: "https://www.yoursite.com/products/viton-rubber-products",
+    canonical: "https://balaji-rubber-products.vercel.app/products/viton-rubber-products",
   },
 
   subProducts: [
@@ -1762,7 +1762,7 @@ const productDetailsData = {
     keywords:
       "viton washers manufacturer, fkm rubber washers, chemical resistant washers",
     canonical:
-      "https://www.yoursite.com/products/viton-washers",
+      "https://balaji-rubber-products.vercel.app/products/viton-washers",
   },
 
   short:
@@ -1840,7 +1840,7 @@ const productDetailsData = {
     keywords:
       "viton o rings manufacturer, fkm o rings supplier, chemical resistant o rings",
     canonical:
-      "https://www.yoursite.com/products/viton-o-rings",
+      "https://balaji-rubber-products.vercel.app/products/viton-o-rings",
   },
 
 
@@ -1897,7 +1897,7 @@ const productDetailsData = {
     keywords:
       "viton seals manufacturer, fkm rubber seals, chemical resistant rubber seals, high temperature viton seals",
     canonical:
-      "https://www.yoursite.com/products/viton-seals",
+      "https://balaji-rubber-products.vercel.app/products/viton-seals",
   },
 
 
@@ -1957,7 +1957,7 @@ const productDetailsData = {
       "High-performance polyurethane components with excellent abrasion resistance for heavy-duty industrial applications.",
     keywords:
       "polyurethane products manufacturer, pu components, wear resistant polyurethane",
-    canonical: "https://www.yoursite.com/products/polyurethane-products",
+    canonical: "https://balaji-rubber-products.vercel.app/products/polyurethane-products",
   },
 
   subProducts: [
@@ -2112,7 +2112,7 @@ const productDetailsData = {
     keywords:
       "polyurethane rollers manufacturer, pu rollers, abrasion resistant rollers",
     canonical:
-      "https://www.yoursite.com/products/polyurethane-rollers",
+      "https://balaji-rubber-products.vercel.app/products/polyurethane-rollers",
   },
 
   short:
@@ -2199,7 +2199,7 @@ const productDetailsData = {
     keywords:
       "castable polyurethane products, pu components manufacturer, cast polyurethane parts",
     canonical:
-      "https://www.yoursite.com/products/castable-polyurethane-products",
+      "https://balaji-rubber-products.vercel.app/products/castable-polyurethane-products",
   },
 
   short:
@@ -2286,7 +2286,7 @@ const productDetailsData = {
     keywords:
       "polyurethane diaphragm manufacturer, pu diaphragm, industrial diaphragm",
     canonical:
-      "https://www.yoursite.com/products/polyurethane-diaphragm",
+      "https://balaji-rubber-products.vercel.app/products/polyurethane-diaphragm",
   },
 
   short:
@@ -2371,7 +2371,7 @@ const productDetailsData = {
     keywords:
       "leveling leg bush manufacturer, pu bush, anti vibration polyurethane bush",
     canonical:
-      "https://www.yoursite.com/products/leveling-leg-bush",
+      "https://balaji-rubber-products.vercel.app/products/leveling-leg-bush",
   },
 
   short:

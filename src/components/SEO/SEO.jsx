@@ -1,4 +1,7 @@
+
 import { Helmet } from "react-helmet-async";
+
+const SITE_URL = "https://balaji-rubber-products.vercel.app";
 
 function SEO({
   title,
@@ -11,97 +14,86 @@ function SEO({
   const schemaData = Array.isArray(schema)
     ? schema
     : schema
-    ? [schema]
-    : [];
+      ? [schema]
+      : [];
+
+  const canonicalUrl = canonical
+    ? new URL(canonical, SITE_URL).href
+    : undefined;
+
+  const imageUrl = image
+    ? new URL(image, SITE_URL).href
+    : undefined;
 
   return (
     <Helmet>
       {/* Basic SEO */}
+      {title && <title>{title}</title>}
 
-      <title>{title}</title>
+      {description && (
+        <meta name="description" content={description} />
+      )}
 
-      <meta
-        name="description"
-        content={description}
-      />
+      {keywords && (
+        <meta name="keywords" content={keywords} />
+      )}
 
-      <meta
-        name="keywords"
-        content={keywords}
-      />
-
-      {canonical && (
-        <link
-          rel="canonical"
-          href={canonical}
-        />
+      {canonicalUrl && (
+        <link rel="canonical" href={canonicalUrl} />
       )}
 
       {/* Open Graph */}
+      <meta property="og:type" content="website" />
 
-      <meta
-        property="og:type"
-        content="website"
-      />
+      {title && (
+        <meta property="og:title" content={title} />
+      )}
 
-      <meta
-        property="og:title"
-        content={title}
-      />
-
-      <meta
-        property="og:description"
-        content={description}
-      />
-
-      <meta
-        property="og:url"
-        content={canonical}
-      />
-
-      {image && (
+      {description && (
         <meta
-          property="og:image"
-          content={image}
+          property="og:description"
+          content={description}
         />
       )}
 
-      {/* Twitter */}
+      {canonicalUrl && (
+        <meta property="og:url" content={canonicalUrl} />
+      )}
 
+      {imageUrl && (
+        <meta property="og:image" content={imageUrl} />
+      )}
+
+      {/* Twitter */}
       <meta
         name="twitter:card"
         content="summary_large_image"
       />
 
-      <meta
-        name="twitter:title"
-        content={title}
-      />
+      {title && (
+        <meta name="twitter:title" content={title} />
+      )}
 
-      <meta
-        name="twitter:description"
-        content={description}
-      />
-
-      {image && (
+      {description && (
         <meta
-          name="twitter:image"
-          content={image}
+          name="twitter:description"
+          content={description}
         />
       )}
 
-      {/* Structured Data */}
-
-      {schemaData.map(
-        (item, index) => (
-          <script
-            key={index}
-            type="application/ld+json"
-          >
-            {JSON.stringify(item)}
-          </script>
-        )
+      {imageUrl && (
+        <meta name="twitter:image" content={imageUrl} />
       )}
+
+      {/* Structured Data */}
+      {schemaData.map((item, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+        >
+          {JSON.stringify(item)}
+        </script>
+      ))}
     </Helmet>
   );
 }

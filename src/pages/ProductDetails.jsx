@@ -45,7 +45,12 @@ function ProductDetails() {
     "@type": "Product",
     name: product.title,
     description: product.description,
-    image: product.images?.hero,
+    image: product.images?.hero
+  ? new URL(
+      product.images.hero,
+      "https://balaji-rubber-products.vercel.app"
+    ).href
+  : undefined,
 
     brand: {
       "@type": "Brand",
@@ -58,33 +63,35 @@ function ProductDetails() {
     },
   };
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+  const SITE_URL = "https://balaji-rubber-products.vercel.app";
 
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: "/",
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Products",
-        item: "/products",
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: product.title,
-        item:
-          product.seo?.canonical ||
-          `/products/${slug}`,
-      },
-    ],
-  };
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: `${SITE_URL}/`,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Products",
+      item: `${SITE_URL}/products`,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: product.title,
+      item: new URL(
+        product.seo?.canonical || `/products/${slug}`,
+        SITE_URL
+      ).href,
+    },
+  ],
+};
 
   const renderSection = (title, items) => {
     if (!Array.isArray(items) || items.length === 0)
@@ -127,10 +134,10 @@ function ProductDetails() {
         canonical={product.seo?.canonical}
         image={product.images?.hero}
         schema={[
-          productSchema,
-          breadcrumbSchema,
-          faqSchema,
-        ]}
+  productSchema,
+  breadcrumbSchema,
+  ...(product.faqs?.length ? [faqSchema] : []),
+]}
       />
 
       <ParallaxSection>
