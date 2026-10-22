@@ -2,4 +2,31 @@
 User-agent: *
 Allow: /
 
+# === AI Search Engine Crawlers ===
+# Allow citability in AI search answers (ChatGPT Search, Claude Search, Perplexity)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Block AI model training crawlers (keeps content out of training datasets)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
 Sitemap: https://balaji-rubber-products.vercel.app/sitemap.xml

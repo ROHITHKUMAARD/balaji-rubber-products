@@ -7,7 +7,7 @@ const productDetailsData = {
   title: "Metal Bonded Rubber Products",
     
   seo: {
-    title: "Metal Bonded Rubber Products Manufacturer | Anti Vibration Mounts",
+    title: "Metal Bonded Rubber Products Manufacturer | Balaji",
     description:
       "Rubber to metal bonded components for vibration isolation, shock absorption and heavy industrial machinery.",
     keywords:
@@ -171,7 +171,7 @@ const productDetailsData = {
 
 
     seo: {
-      title: "Rubber Bellows Manufacturer | Industrial & Automotive Bellows",
+      title: "Rubber Bellows Manufacturer | Industrial Bellows",
       description:
         "High-quality rubber bellows for vibration control, expansion joints, pumps and industrial machinery. Custom designs available.",
       keywords:
@@ -336,7 +336,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title: "Rubber Seals & O-Rings Manufacturer in India | Custom Sealing Solutions",
+    title: "Rubber Seals & O-Rings Manufacturer India | Balaji",
     description:
       "Precision rubber seals and O-rings in NBR, EPDM, Viton & Silicone for hydraulic, pneumatic and industrial applications.",
     keywords:
@@ -502,8 +502,7 @@ const productDetailsData = {
 
 
     seo: {
-      title:
-        "Rubber Diaphragm Manufacturer | Industrial & Automotive Diaphragms",
+      title: "Rubber Diaphragm Manufacturer | Custom Diaphragms",
       description:
         "Manufacturer of precision molded rubber diaphragms for pumps, valves, actuators and control systems. Custom designs available.",
       keywords:
@@ -663,7 +662,7 @@ const productDetailsData = {
   title: "Nitrile Rubber (NBR) Products",
 
   seo: {
-    title: "Nitrile Rubber (NBR) Products Manufacturer | Oil Resistant Rubber",
+    title: "Nitrile Rubber Products (NBR) Manufacturer | Balaji",
     description:
       "Oil and fuel resistant nitrile rubber products for automotive, hydraulic and industrial sealing applications.",
     keywords:
@@ -951,7 +950,7 @@ const productDetailsData = {
   title: "Rubber Products",
 
   seo: {
-    title: "Rubber Products Manufacturer in India | Custom Industrial Rubber Parts",
+    title: "Rubber Products Manufacturer in India | Custom Parts",
     description:
       "Manufacturer of custom rubber products including seals, bellows, diaphragms and molded components for industrial and OEM applications.",
     keywords:
@@ -1288,8 +1287,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title:
-      "Silicone Tubes Manufacturer | Food & Medical Grade Silicone Tubing",
+    title: "Silicone Tubes Manufacturer | Food & Medical Grade",
     description:
       "High-quality silicone tubes for food, pharmaceutical, medical and high-temperature industrial applications. Custom sizes available.",
     keywords:
@@ -1370,8 +1368,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title:
-      "Silicone O-Rings Manufacturer | High Temperature & Food Grade O Rings",
+    title: "Silicone O-Rings Manufacturer | High Temp O-Rings",
     description:
       "Manufacturer of silicone O-rings with excellent temperature resistance, flexibility and sealing performance for food, pharma, medical and industrial applications.",
     keywords:
@@ -1452,8 +1449,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title:
-      "Silicone Cords Manufacturer | High Temperature Silicone Rubber Cords",
+    title: "Silicone Cords Manufacturer | High Temp Rubber Cords",
     description:
       "Flexible silicone rubber cords with excellent heat resistance for sealing, insulation and industrial applications.",
     keywords:
@@ -1519,8 +1515,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
    seo: {
-    title:
-      "Silicone Profiles Manufacturer | Custom Extruded Silicone Profiles",
+    title: "Silicone Profiles Manufacturer | Extruded Profiles",
     description:
       "Custom extruded silicone rubber profiles for sealing, insulation and high-temperature industrial applications.",
     keywords:
@@ -1586,7 +1581,7 @@ const productDetailsData = {
   
   
   seo: {
-    title: "Viton Rubber Products Manufacturer | Chemical Resistant Seals",
+    title: "Viton Rubber Products Manufacturer | Viton Seals",
     description:
       "High-temperature and chemical resistant Viton rubber components for oil & gas, chemical and automotive industries.",
     keywords:
@@ -1755,8 +1750,7 @@ const productDetailsData = {
 
 
   seo: {
-    title:
-      "Viton Washers Manufacturer | Chemical & Heat Resistant Washers",
+    title: "Viton Washers Manufacturer | Chemical Resistant FKM",
     description:
       "Manufacturer of Viton (FKM) washers offering excellent resistance to heat, fuels, oils and aggressive chemicals for industrial and oil & gas applications.",
     keywords:
@@ -1833,8 +1827,7 @@ const productDetailsData = {
 
 
   seo: {
-    title:
-      "Viton O-Rings Manufacturer | High Temperature & Chemical Resistant",
+    title: "Viton O-Rings Manufacturer | Chemical Resistant FKM",
     description:
       "Viton O-rings with excellent resistance to heat, fuels and chemicals for oil & gas, chemical and automotive applications.",
     keywords:
@@ -1890,8 +1883,7 @@ const productDetailsData = {
 
 
   seo: {
-    title:
-      "Viton Seals Manufacturer | High Temperature & Chemical Resistant Seals",
+    title: "Viton Seals Manufacturer | FKM Rubber Seals",
     description:
       "Manufacturer of Viton (FKM) rubber seals with excellent resistance to high temperature, fuels, oils and aggressive chemicals for industrial, oil & gas and automotive applications.",
     keywords:
@@ -1952,7 +1944,7 @@ const productDetailsData = {
   title: "Polyurethane (PU) Products",
 
   seo: {
-    title: "Polyurethane Products Manufacturer | Wear Resistant PU Components",
+    title: "Polyurethane Products Manufacturer | PU Components",
     description:
       "High-performance polyurethane components with excellent abrasion resistance for heavy-duty industrial applications.",
     keywords:
@@ -2105,8 +2097,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title:
-      "Polyurethane Rollers Manufacturer | Wear & Abrasion Resistant PU Rollers",
+    title: "Polyurethane Rollers Manufacturer | Custom PU Rollers",
     description:
       "Manufacturer of polyurethane rollers with excellent abrasion resistance, load bearing capacity and long service life for industrial machinery applications.",
     keywords:
@@ -2192,8 +2183,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title:
-      "Castable Polyurethane Products Manufacturer | Custom PU Components",
+    title: "Castable Polyurethane Products Manufacturer | PU Parts",
     description:
       "Manufacturer of castable polyurethane components offering high abrasion resistance, toughness and load capacity for demanding industrial applications.",
     keywords:
@@ -2279,8 +2269,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title:
-      "Polyurethane Diaphragm Manufacturer | High Strength PU Diaphragms",
+    title: "Polyurethane Diaphragm Manufacturer | PU Diaphragms",
     description:
       "Manufacturer of polyurethane diaphragms offering excellent flexibility, strength and chemical resistance for pumps, valves and control systems.",
     keywords:
@@ -2364,8 +2353,7 @@ const productDetailsData = {
   isSubProductOnly: true,
 
   seo: {
-    title:
-      "Polyurethane Leveling Leg Bush Manufacturer | Anti Vibration PU Bush",
+    title: "Polyurethane Leveling Leg Bush Manufacturer | PU Bush",
     description:
       "Manufacturer of polyurethane leveling leg bushes providing vibration isolation, load support and durability for industrial machinery.",
     keywords:

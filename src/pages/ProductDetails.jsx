@@ -72,6 +72,34 @@ const breadcrumbSchema = {
   ],
 };
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.title,
+    description: product.seo?.description || product.short,
+    image: product.images?.hero
+      ? `https://balaji-rubber-products.vercel.app${product.images.hero}`
+      : undefined,
+    brand: {
+      "@type": "Brand",
+      name: "Balaji Rubber Products",
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: "Balaji Rubber Products",
+      url: "https://balaji-rubber-products.vercel.app",
+    },
+    offers: {
+      "@type": "Offer",
+      availability: "https://schema.org/InStock",
+      priceCurrency: "INR",
+      seller: {
+        "@type": "Organization",
+        name: "Balaji Rubber Products",
+      },
+    },
+  };
+
   const renderSection = (title, items) => {
     if (!Array.isArray(items) || items.length === 0)
       return null;
@@ -114,6 +142,7 @@ const breadcrumbSchema = {
         image={product.images?.hero}
         schema={[
           breadcrumbSchema,
+          productSchema,
           ...(product.faqs?.length ? [faqSchema] : []),
         ]}
       />

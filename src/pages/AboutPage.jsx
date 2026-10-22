@@ -6,8 +6,8 @@ function AboutPage() {
   return (
     <>
       <SEO
-        title="About Balaji Rubber Products | Rubber & Polyurethane Components Manufacturer"
-        description="Balaji Rubber Products is a Bengaluru-based manufacturer of rubber, silicone, viton, nitrile, polyurethane, and metal bonded rubber products serving OEMs and industrial clients across India since 2003."
+        title="About Balaji Rubber Products | Rubber & PU Manufacturer"
+        description="Balaji Rubber Products is a Bengaluru manufacturer of industrial rubber, silicone, Viton, PU, and metal-bonded parts serving OEMs across India since 2003."
         keywords="about balaji rubber products, rubber manufacturer bengaluru, industrial rubber products manufacturer india, silicone products manufacturer, polyurethane products manufacturer"
         canonical="/about"
       />

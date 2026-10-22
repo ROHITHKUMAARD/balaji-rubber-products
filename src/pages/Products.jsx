@@ -8,8 +8,8 @@ function Products() {
   return (
     <>
       <SEO
-        title="Industrial Rubber Products Manufacturer | Balaji Rubber Products"
-        description="Explore our range of industrial rubber products including rubber bellows, diaphragms, seals, O-rings, silicone products, Viton products, polyurethane components, and metal bonded rubber products."
+        title="Industrial Rubber Products Manufacturer | Balaji"
+        description="Explore industrial rubber products: rubber bellows, diaphragms, seals, O-rings, silicone, Viton, PU, and metal bonded rubber components for OEMs."
         keywords="rubber products manufacturer, rubber bellows manufacturer, rubber diaphragm manufacturer, silicone rubber products, viton products, polyurethane products, metal bonded rubber products"
         canonical="/products"
       />

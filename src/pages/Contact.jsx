@@ -136,8 +136,8 @@ function Contact() {
   return (
      <>
     <SEO
-      title="Contact Balaji Rubber Products | Industrial Rubber Products Manufacturer"
-      description="Contact Balaji Rubber Products for custom rubber moulding, silicone products, Viton products, polyurethane products, rubber bellows, diaphragms, seals and OEM manufacturing requirements."
+      title="Contact Balaji Rubber Products | Request a Quote"
+      description="Contact Balaji Rubber Products for custom rubber moulding, silicone, Viton, PU products, bellows, diaphragms, seals, and OEM parts in Bengaluru, India."
       keywords="contact rubber manufacturer, rubber products manufacturer bengaluru, silicone rubber products manufacturer, polyurethane products manufacturer"
       canonical="/contact"
       schema={organizationSchema}
