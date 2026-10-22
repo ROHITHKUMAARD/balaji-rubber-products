@@ -109,7 +109,7 @@ function Contact() {
 
   name: "Balaji Rubber Products",
 
-  url: "https://balaji-rubber-products.vercel.app/",
+  url: "https://balajirubberproducts.com/",
 
   email: "rseerive5184@gmail.com",
 

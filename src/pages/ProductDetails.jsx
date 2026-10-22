@@ -42,7 +42,7 @@ function ProductDetails() {
 
 
 
-  const SITE_URL = "https://balaji-rubber-products.vercel.app";
+  const SITE_URL = "https://balajirubberproducts.com";
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -78,7 +78,7 @@ const breadcrumbSchema = {
     name: product.title,
     description: product.seo?.description || product.short,
     image: product.images?.hero
-      ? `https://balaji-rubber-products.vercel.app${product.images.hero}`
+      ? `https://balajirubberproducts.com${product.images.hero}`
       : undefined,
     brand: {
       "@type": "Brand",
@@ -87,7 +87,7 @@ const breadcrumbSchema = {
     manufacturer: {
       "@type": "Organization",
       name: "Balaji Rubber Products",
-      url: "https://balaji-rubber-products.vercel.app",
+      url: "https://balajirubberproducts.com",
     },
     offers: {
       "@type": "Offer",

@@ -13,11 +13,11 @@ const homeSchema = [
   {
     "@context": "https://schema.org",
     "@type": ["Organization", "LocalBusiness"],
-    "@id": "https://balaji-rubber-products.vercel.app/#organization",
+    "@id": "https://balajirubberproducts.com/#organization",
     name: "Balaji Rubber Products",
-    url: "https://balaji-rubber-products.vercel.app/",
-    logo: "https://balaji-rubber-products.vercel.app/favicon.svg",
-    image: "https://balaji-rubber-products.vercel.app/assets/hero.png",
+    url: "https://balajirubberproducts.com/",
+    logo: "https://balajirubberproducts.com/favicon.svg",
+    image: "https://balajirubberproducts.com/assets/hero.png",
     email: "rseerive5184@gmail.com",
     telephone: "+91 82172 47104",
     priceRange: "$$",
@@ -55,12 +55,12 @@ const homeSchema = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://balaji-rubber-products.vercel.app/#website",
-    url: "https://balaji-rubber-products.vercel.app/",
+    "@id": "https://balajirubberproducts.com/#website",
+    url: "https://balajirubberproducts.com/",
     name: "Balaji Rubber Products",
     description: "Industrial Rubber Products Manufacturer in India",
     publisher: {
-      "@id": "https://balaji-rubber-products.vercel.app/#organization",
+      "@id": "https://balajirubberproducts.com/#organization",
     },
   },
 ];
