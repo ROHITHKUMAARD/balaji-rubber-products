@@ -28,6 +28,10 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' https: data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https: https://api.web3forms.com; img-src 'self' https: data: blob:; font-src 'self' https: data:;"
         }
       ]
     },

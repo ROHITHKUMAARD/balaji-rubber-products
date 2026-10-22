@@ -17,6 +17,7 @@ const homeSchema = [
     name: "Balaji Rubber Products",
     url: "https://balaji-rubber-products.vercel.app/",
     logo: "https://balaji-rubber-products.vercel.app/favicon.svg",
+    image: "https://balaji-rubber-products.vercel.app/assets/hero.png",
     email: "rseerive5184@gmail.com",
     telephone: "+91 82172 47104",
     priceRange: "$$",
