@@ -1,7 +1,7 @@
 
 import { Helmet } from "react-helmet-async";
 
-const SITE_URL = "https://balajirubberproducts.com";
+const SITE_URL = "https://www.balajirubberproducts.com";
 
 function SEO({
   title,

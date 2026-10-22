@@ -39,9 +39,9 @@ export default function LocationPage({ locationKey }) {
   const locationSchema = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "Organization"],
-    "@id": `https://balajirubberproducts.com/locations/${locationKey}/#localbusiness`,
+    "@id": `https://www.balajirubberproducts.com/locations/${locationKey}/#localbusiness`,
     name: "Balaji Rubber Products",
-    url: `https://balajirubberproducts.com/locations/${locationKey}`,
+    url: `https://www.balajirubberproducts.com/locations/${locationKey}`,
     telephone: "+91 82172 47104",
     email: "rseerive5184@gmail.com",
     address: {

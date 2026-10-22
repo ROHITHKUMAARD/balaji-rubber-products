@@ -109,7 +109,7 @@ function Contact() {
 
   name: "Balaji Rubber Products",
 
-  url: "https://balajirubberproducts.com/",
+  url: "https://www.balajirubberproducts.com/",
 
   email: "rseerive5184@gmail.com",
 
