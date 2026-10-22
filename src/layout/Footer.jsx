@@ -283,6 +283,21 @@ function Footer() {
             GST Registered
           </div>
         </div>
+        {/* SOCIAL & AUTHORITY EXTERNAL LINKS (FOR SEO & TRUST) */}
+        <div className="py-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-sm text-white/60">
+          <div className="flex flex-wrap items-center gap-6">
+            <span className="text-white/40 uppercase tracking-wider text-xs">Industry Standards:</span>
+            <a href="https://www.iso.org/standard/62085.html" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">ISO 9001:2015 Standards</a>
+            <a href="https://msme.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">MSME India Directory</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Sunkadkatte+Badavane+Bengaluru+560091" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">Factory Location on Google Maps</a>
+          </div>
+          <div className="flex items-center gap-4">
+            <span className="text-white/40 uppercase tracking-wider text-xs">Connect:</span>
+            <a href="https://api.whatsapp.com/send?phone=918217247104&text=Hello%20Balaji%20Rubber%20Products%2C%20I%20have%20an%20inquiry" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">WhatsApp Business</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">LinkedIn</a>
+          </div>
+        </div>
+
 
         {/* BOTTOM */}
         <div
