@@ -23,8 +23,10 @@ const homeSchema = [
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "09/1 Sollapura Dhama Sg Kaval Sunkadkatte Badavane",
       addressLocality: "Bengaluru",
       addressRegion: "Karnataka",
+      postalCode: "560091",
       addressCountry: "IN",
     },
     geo: {
