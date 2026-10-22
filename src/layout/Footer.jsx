@@ -186,17 +186,17 @@ function Footer() {
 
             <div className="space-y-4 text-white/60">
               <p>
-                +91 XXXXX XXXXX
+                +91 82172 47104
               </p>
 
               <p>
-                info@balajirubberproducts.com
+                rseerive5184@gmail.com
               </p>
 
               <p>
-                Chennai,
+                Sunkadkatte Badavane,
                 <br />
-                Tamil Nadu,
+                Bengaluru, Karnataka - 560091,
                 India
               </p>
             </div>
